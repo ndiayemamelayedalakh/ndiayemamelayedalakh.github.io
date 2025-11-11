@@ -84,4 +84,54 @@ footer {
   padding: 15px;
   margin-top: 40px;
   font-size: 0.9em;
+
+}
+
+.sae-grid {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.sae-grid h2 {
+  font-size: 2em;
+  color: #004080;
+  margin-bottom: 30px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.sae-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.sae-card:hover {
+  transform: translateY(-5px);
+}
+
+.sae-card h3 {
+  color: #0066cc;
+  margin-bottom: 10px;
+}
+
+.sae-card p {
+  font-size: 0.95em;
+  color: #555;
+}
+
+.sae-card a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #004080;
+  font-weight: bold;
 }
